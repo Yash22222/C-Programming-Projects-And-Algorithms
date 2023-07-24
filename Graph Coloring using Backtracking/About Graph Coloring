@@ -1,0 +1,10 @@
+What is a graph coloring problem?
+
+Graph coloring problem involves assigning colors to certain elements of a graph subject to certain restrictions and constraints. This has found applications in numerous fields of computer science. 
+
+For example:
+
+1] Sudoku: This game is a variation of the Graph coloring problem where every cell denotes a node (or vertex) and there exists an edge between two nodes if the nodes are in the same row or same column or same block.
+
+2] Geographical maps: There can be cases when no two adjacent cities/states can be assigned the same color in the maps of countries or states. In this case, only four colors would be sufficient to color any map.
+Vertex coloring is the most commonly encountered graph coloring problem. The problem states that given m colors, determine a way of coloring the vertices of a graph such that no two adjacent vertices are assigned the same color.
