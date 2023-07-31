@@ -1,1 +1,27 @@
+In computer graphics, C++ provides graphics.h through which objects can be created and by using these objects flying birds can be created in C++ program.
 
+The functions used in this program are as follows:
+
+line(): The line function is used to draw a line. 
+Syntax:
+line(x1, y1, x2, y2); 
+where, (x1, y1) (x2, y2) are end points of the line. 
+ 
+
+arc(): The arc function is used to draw an arc. 
+Syntax:
+arc(x, y, start_angle, end_angle, r); 
+where, (x, y) is the center of the arc, start_angle is the starting angle, end_angle is the ending angle and r is the radius of the angle.
+
+circle(): The circle function is used to draw a circle. 
+Syntax:
+circle(x, y, r); 
+where, (x, y) is the center point and r is the radius of the circle.
+
+delay(): The delay function is used to stop the screen for a specific time as the execution of the program is very fast. 
+Syntax:
+delay(n); 
+where n is the number of seconds you want to stop the screen.
+
+cleardevice(): The clear device function is used to clear the screen.
+closegraph(): The close graph function is used to close the graph.
