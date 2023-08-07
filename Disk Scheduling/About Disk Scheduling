@@ -1,0 +1,22 @@
+Disk Scheduling:- FCFS, SSTF, SCAN, CSCAN, LOOK, C-LOOK.
+
+Disk scheduling is done by operating systems to schedule I/O requests arriving for the disk. Disk scheduling is also known as I/O Scheduling.
+
+Improtance of Disk Scheduling in Operating System
+Multiple I/O requests may arrive by different processes and only one I/O request can be served at a time by the disk controller. Thus other I/O requests need to wait in the waiting queue and need to be scheduled.
+Two or more requests may be far from each other so this can result in greater disk arm movement.
+Hard drives are one of the slowest parts of the computer system and thus need to be accessed in an efficient manner.
+Here, we will cover the following Topics in Disk Scheduling.
+
+Important Terms Associated with Disk Scheduling
+Disk Scheduling Algorithms
+FCFS (First Come First Serve)
+SSTF (Shortest Seek Time First)
+SCAN (Elevator Algorithm)
+C-SCAN (CIrcular SCAN)
+LOOK
+C-LOOK
+RSS
+LIFO (Last-In First-Out)
+N-Step SCAN
+F-SCAN
