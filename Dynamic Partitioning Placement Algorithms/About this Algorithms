@@ -1,1 +1,27 @@
+Dynamic Partitioning Placement Algorithms  i.e. Best Fit, First Fit, Worst-Fit, etc.
 
+In the operating system, the following are four common memory management techniques. 
+
+Single contiguous allocation: Simplest allocation method used by MS-DOS. All memory (except some reserved for OS) is available to a process. 
+
+Partitioned allocation: Memory is divided into different blocks or partitions. Each process is allocated according to the requirement. 
+
+Paged memory management: Memory is divided into fixed-sized units called page frames, used in a virtual memory environment. 
+
+Segmented memory management: Memory is divided into different segments (a segment is a logical grouping of the process’ data or code).In this management, allocated memory doesn’t have to be contiguous. 
+
+Most of the operating systems (for example Windows and Linux) use Segmentation with Paging. A process is divided into segments and individual segments have pages. 
+
+In Partition Allocation, when there is more than one partition freely available to accommodate a process’s request, a partition must be selected. To choose a particular partition, a partition allocation method is needed. A partition allocation method is considered better if it avoids internal fragmentation. 
+
+When it is time to load a process into the main memory and if there is more than one free block of memory of sufficient size then the OS decides which free block to allocate.
+
+There are different Placement Algorithm:
+
+A. First Fit
+
+B. Best Fit
+
+C. Worst Fit
+
+D. Next Fit
