@@ -1,1 +1,24 @@
- 8 Queens Problem (N- Queens Problem) using Backtracking
+ 8 Queens Problem (N- Queens Problem) using Backtracking:-
+
+
+The 8 Queens Problem is a classic problem in computer science that asks if it is possible to place 8 queens on a chessboard so that no two queens are attacking each other. The problem can be solved using backtracking.
+
+Backtracking is a recursive algorithm that tries all possible solutions to a problem, and backtracks when it finds a solution that is not valid. The 8 Queens Problem can be solved using backtracking as follows:
+
+1] Start by placing the first queen on any square on the chessboard.
+2] For each of the remaining 7 queens, try placing it on each of the squares that are not attacking the first queen.
+3] If a queen can be placed on a square without attacking any of the other queens, then recursively call the backtracking algorithm to place the remaining queens.
+4] If a queen cannot be placed on a square without attacking any of the other queens, then backtrack and try placing the queen on a different square.
+5] The backtracking algorithm will continue to try all possible solutions until it finds a solution that works, or until it has tried all possible solutions and found none that work.
+6] The 8 Queens Problem can be solved using backtracking in polynomial time. This means that the time it takes to solve the problem grows as a polynomial function of the number of queens, in this case 8.
+
+@ Here is an example of how the backtracking algorithm can be used to solve the 8 Queens Problem:
+
+1] Start by placing the first queen on the square in the center of the chessboard.
+2] The second queen cannot be placed on any of the squares in the same row, column, or diagonal as the first queen. The second queen can be placed on any of the remaining 8 squares.
+3] The third queen cannot be placed on any of the squares in the same row, column, or diagonal as the first or second queen. The third queen can be placed on any of the remaining 7 squares.
+...
+4] The 8th queen can be placed on any of the remaining 2 squares.
+5] Once the 8th queen has been placed, a solution to the 8 Queens Problem has been found.
+
+The 8 Queens Problem can also be solved using other algorithms, such as brute force search. However, backtracking is a more efficient algorithm, and it is typically the preferred algorithm for solving the 8 Queens Problem.
